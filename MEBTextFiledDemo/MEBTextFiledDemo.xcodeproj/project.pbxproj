@@ -13,7 +13,7 @@
 		A334060F2099BA69009DB139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A334060E2099BA69009DB139 /* Assets.xcassets */; };
 		A33406122099BA69009DB139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33406102099BA69009DB139 /* LaunchScreen.storyboard */; };
 		A33406152099BA69009DB139 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33406142099BA69009DB139 /* main.m */; };
-		A3340656209B21FE009DB139 /* MEBTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3340655209B21FE009DB139 /* MEBTextFieldManager.m */; };
+		A334065B209B23EC009DB139 /* MEBTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3340659209B23EC009DB139 /* MEBTextFieldManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		A33406112099BA69009DB139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A33406132099BA69009DB139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A33406142099BA69009DB139 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3340654209B21FE009DB139 /* MEBTextFieldManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEBTextFieldManager.h; sourceTree = "<group>"; };
-		A3340655209B21FE009DB139 /* MEBTextFieldManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEBTextFieldManager.m; sourceTree = "<group>"; };
+		A3340658209B23EC009DB139 /* MEBTextFieldManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBTextFieldManager.h; sourceTree = "<group>"; };
+		A3340659209B23EC009DB139 /* MEBTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBTextFieldManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		A33406042099BA69009DB139 /* MEBTextFiledDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A3340653209B21CC009DB139 /* MEBTextField */,
+				A3340657209B23EC009DB139 /* MEBTextField */,
 				A33406052099BA69009DB139 /* AppDelegate.h */,
 				A33406062099BA69009DB139 /* AppDelegate.m */,
 				A33406082099BA69009DB139 /* ViewController.h */,
@@ -75,14 +75,22 @@
 			path = MEBTextFiledDemo;
 			sourceTree = "<group>";
 		};
-		A3340653209B21CC009DB139 /* MEBTextField */ = {
+		A3340657209B23EC009DB139 /* MEBTextField */ = {
 			isa = PBXGroup;
 			children = (
-				A3340654209B21FE009DB139 /* MEBTextFieldManager.h */,
-				A3340655209B21FE009DB139 /* MEBTextFieldManager.m */,
+				A3340658209B23EC009DB139 /* MEBTextFieldManager.h */,
+				A3340659209B23EC009DB139 /* MEBTextFieldManager.m */,
+				A334065A209B23EC009DB139 /* ttt */,
 			);
 			name = MEBTextField;
 			path = ../../MEBTextField;
+			sourceTree = "<group>";
+		};
+		A334065A209B23EC009DB139 /* ttt */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ttt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3340656209B21FE009DB139 /* MEBTextFieldManager.m in Sources */,
+				A334065B209B23EC009DB139 /* MEBTextFieldManager.m in Sources */,
 				A334060A2099BA69009DB139 /* ViewController.m in Sources */,
 				A33406152099BA69009DB139 /* main.m in Sources */,
 				A33406072099BA69009DB139 /* AppDelegate.m in Sources */,
