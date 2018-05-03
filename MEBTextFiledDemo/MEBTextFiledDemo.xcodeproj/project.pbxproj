@@ -13,7 +13,15 @@
 		A334060F2099BA69009DB139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A334060E2099BA69009DB139 /* Assets.xcassets */; };
 		A33406122099BA69009DB139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33406102099BA69009DB139 /* LaunchScreen.storyboard */; };
 		A33406152099BA69009DB139 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33406142099BA69009DB139 /* main.m */; };
-		A334065B209B23EC009DB139 /* MEBTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3340659209B23EC009DB139 /* MEBTextFieldManager.m */; };
+		A3340669209B2907009DB139 /* NSString+MEBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A334065D209B2907009DB139 /* NSString+MEBTextField.m */; };
+		A334066A209B2907009DB139 /* MEBNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A3340660209B2907009DB139 /* MEBNumberKeyboard.m */; };
+		A334066B209B2907009DB139 /* MEBNumberKeyboardDeleteKey.png in Resources */ = {isa = PBXBuildFile; fileRef = A3340661209B2907009DB139 /* MEBNumberKeyboardDeleteKey.png */; };
+		A334066C209B2907009DB139 /* MEBNumberKeyboardDeleteKey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3340662209B2907009DB139 /* MEBNumberKeyboardDeleteKey@2x.png */; };
+		A334066D209B2907009DB139 /* MEBNumberKeyboardDeleteKey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3340663209B2907009DB139 /* MEBNumberKeyboardDeleteKey@3x.png */; };
+		A334066E209B2907009DB139 /* MEBNumberKeyboardDismissKey.png in Resources */ = {isa = PBXBuildFile; fileRef = A3340664209B2907009DB139 /* MEBNumberKeyboardDismissKey.png */; };
+		A334066F209B2907009DB139 /* MEBNumberKeyboardDismissKey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3340665209B2907009DB139 /* MEBNumberKeyboardDismissKey@2x.png */; };
+		A3340670209B2907009DB139 /* MEBNumberKeyboardDismissKey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3340666209B2907009DB139 /* MEBNumberKeyboardDismissKey@3x.png */; };
+		A3340671209B2907009DB139 /* MEBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A3340668209B2907009DB139 /* MEBTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +35,18 @@
 		A33406112099BA69009DB139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A33406132099BA69009DB139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A33406142099BA69009DB139 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3340658209B23EC009DB139 /* MEBTextFieldManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBTextFieldManager.h; sourceTree = "<group>"; };
-		A3340659209B23EC009DB139 /* MEBTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBTextFieldManager.m; sourceTree = "<group>"; };
+		A334065C209B2906009DB139 /* MEBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBTextField.h; sourceTree = "<group>"; };
+		A334065D209B2907009DB139 /* NSString+MEBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MEBTextField.m"; sourceTree = "<group>"; };
+		A334065F209B2907009DB139 /* MEBNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEBNumberKeyboard.h; sourceTree = "<group>"; };
+		A3340660209B2907009DB139 /* MEBNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBNumberKeyboard.m; sourceTree = "<group>"; };
+		A3340661209B2907009DB139 /* MEBNumberKeyboardDeleteKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MEBNumberKeyboardDeleteKey.png; sourceTree = "<group>"; };
+		A3340662209B2907009DB139 /* MEBNumberKeyboardDeleteKey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MEBNumberKeyboardDeleteKey@2x.png"; sourceTree = "<group>"; };
+		A3340663209B2907009DB139 /* MEBNumberKeyboardDeleteKey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MEBNumberKeyboardDeleteKey@3x.png"; sourceTree = "<group>"; };
+		A3340664209B2907009DB139 /* MEBNumberKeyboardDismissKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MEBNumberKeyboardDismissKey.png; sourceTree = "<group>"; };
+		A3340665209B2907009DB139 /* MEBNumberKeyboardDismissKey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MEBNumberKeyboardDismissKey@2x.png"; sourceTree = "<group>"; };
+		A3340666209B2907009DB139 /* MEBNumberKeyboardDismissKey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MEBNumberKeyboardDismissKey@3x.png"; sourceTree = "<group>"; };
+		A3340667209B2907009DB139 /* NSString+MEBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MEBTextField.h"; sourceTree = "<group>"; };
+		A3340668209B2907009DB139 /* MEBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEBTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,19 +96,29 @@
 		A3340657209B23EC009DB139 /* MEBTextField */ = {
 			isa = PBXGroup;
 			children = (
-				A3340658209B23EC009DB139 /* MEBTextFieldManager.h */,
-				A3340659209B23EC009DB139 /* MEBTextFieldManager.m */,
-				A334065A209B23EC009DB139 /* ttt */,
+				A334065C209B2906009DB139 /* MEBTextField.h */,
+				A3340668209B2907009DB139 /* MEBTextField.m */,
+				A3340667209B2907009DB139 /* NSString+MEBTextField.h */,
+				A334065D209B2907009DB139 /* NSString+MEBTextField.m */,
+				A334065E209B2907009DB139 /* NumberMinusKeyBoard */,
 			);
 			name = MEBTextField;
 			path = ../../MEBTextField;
 			sourceTree = "<group>";
 		};
-		A334065A209B23EC009DB139 /* ttt */ = {
+		A334065E209B2907009DB139 /* NumberMinusKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				A334065F209B2907009DB139 /* MEBNumberKeyboard.h */,
+				A3340660209B2907009DB139 /* MEBNumberKeyboard.m */,
+				A3340661209B2907009DB139 /* MEBNumberKeyboardDeleteKey.png */,
+				A3340662209B2907009DB139 /* MEBNumberKeyboardDeleteKey@2x.png */,
+				A3340663209B2907009DB139 /* MEBNumberKeyboardDeleteKey@3x.png */,
+				A3340664209B2907009DB139 /* MEBNumberKeyboardDismissKey.png */,
+				A3340665209B2907009DB139 /* MEBNumberKeyboardDismissKey@2x.png */,
+				A3340666209B2907009DB139 /* MEBNumberKeyboardDismissKey@3x.png */,
 			);
-			path = ttt;
+			path = NumberMinusKeyBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +181,13 @@
 			files = (
 				A33406122099BA69009DB139 /* LaunchScreen.storyboard in Resources */,
 				A334060F2099BA69009DB139 /* Assets.xcassets in Resources */,
+				A334066F209B2907009DB139 /* MEBNumberKeyboardDismissKey@2x.png in Resources */,
 				A334060D2099BA69009DB139 /* Main.storyboard in Resources */,
+				A3340670209B2907009DB139 /* MEBNumberKeyboardDismissKey@3x.png in Resources */,
+				A334066E209B2907009DB139 /* MEBNumberKeyboardDismissKey.png in Resources */,
+				A334066C209B2907009DB139 /* MEBNumberKeyboardDeleteKey@2x.png in Resources */,
+				A334066B209B2907009DB139 /* MEBNumberKeyboardDeleteKey.png in Resources */,
+				A334066D209B2907009DB139 /* MEBNumberKeyboardDeleteKey@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A334065B209B23EC009DB139 /* MEBTextFieldManager.m in Sources */,
+				A3340671209B2907009DB139 /* MEBTextField.m in Sources */,
 				A334060A2099BA69009DB139 /* ViewController.m in Sources */,
+				A334066A209B2907009DB139 /* MEBNumberKeyboard.m in Sources */,
+				A3340669209B2907009DB139 /* NSString+MEBTextField.m in Sources */,
 				A33406152099BA69009DB139 /* main.m in Sources */,
 				A33406072099BA69009DB139 /* AppDelegate.m in Sources */,
 			);
