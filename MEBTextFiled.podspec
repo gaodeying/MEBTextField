@@ -92,15 +92,15 @@ Pod::Spec.new do |s|
   #
 
   s.subspec 'TextFiled' do |ss|
-    ss.source_files = 'MEBTextField/**/MEBTextField.{h,m}'
+    ss.source_files = 'MEBTextField/TextField/MEBTextField.{h,m}'
   end
 
   s.subspec 'MinusNumberKeyBoard' do |ss|
-    s.source_files = 'MEBTextField/**/MEBNumberKeyboard.{h,m}'
+    ss.source_files = 'MEBTextField/NumberMinusKeyBoard/MEBNumberKeyboard.{h,m}'
   end
 
   s.subspec 'Resource' do |ss|
-    s.source_files = 'MEBTextField/Resource/*'
+    ss.source_files = 'MEBTextField/Resource/*'
   end
 
   # s.public_header_files = "Classes/**/*.h"
