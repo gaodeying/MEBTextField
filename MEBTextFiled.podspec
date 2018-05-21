@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'MinusNumberKeyBoard' do |ss|
-    s.source_files = 'MEBTextField/NumberMinusKeyBoard/*'
+    s.source_files = 'MEBTextField/**/MEBNumberKeyboard.{h,m}'
   end
 
   s.subspec 'Resource' do |ss|
