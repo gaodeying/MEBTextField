@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MEBTextFiled"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "A subclass of UITextField"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,17 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = 'MEBTextField/**/*.{h,m}'
+  s.subspec 'TextFiled' do |ss|
+    ss.source_files = 'MEBTextField/**/MEBTextField.{h,m}'
+  end
+
+  s.subspec 'MinusNumberKeyBoard' do |ss|
+    s.source_files = 'MEBTextField/NumberMinusKeyBoard/*'
+  end
+
+  s.subspec 'Resource' do |ss|
+    s.source_files = 'MEBTextField/Resource/*'
+  end
 
   # s.public_header_files = "Classes/**/*.h"
 

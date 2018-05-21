@@ -96,11 +96,9 @@
 		A3340657209B23EC009DB139 /* MEBTextField */ = {
 			isa = PBXGroup;
 			children = (
-				A334065C209B2906009DB139 /* MEBTextField.h */,
-				A3340668209B2907009DB139 /* MEBTextField.m */,
-				A3340667209B2907009DB139 /* NSString+MEBTextField.h */,
-				A334065D209B2907009DB139 /* NSString+MEBTextField.m */,
+				A3689D6920B2C5D00039E36C /* TextField */,
 				A334065E209B2907009DB139 /* NumberMinusKeyBoard */,
+				A3689D6A20B2C5E20039E36C /* Resource */,
 			);
 			name = MEBTextField;
 			path = ../../MEBTextField;
@@ -111,6 +109,24 @@
 			children = (
 				A334065F209B2907009DB139 /* MEBNumberKeyboard.h */,
 				A3340660209B2907009DB139 /* MEBNumberKeyboard.m */,
+			);
+			path = NumberMinusKeyBoard;
+			sourceTree = "<group>";
+		};
+		A3689D6920B2C5D00039E36C /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				A334065C209B2906009DB139 /* MEBTextField.h */,
+				A3340668209B2907009DB139 /* MEBTextField.m */,
+				A3340667209B2907009DB139 /* NSString+MEBTextField.h */,
+				A334065D209B2907009DB139 /* NSString+MEBTextField.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		A3689D6A20B2C5E20039E36C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				A3340661209B2907009DB139 /* MEBNumberKeyboardDeleteKey.png */,
 				A3340662209B2907009DB139 /* MEBNumberKeyboardDeleteKey@2x.png */,
 				A3340663209B2907009DB139 /* MEBNumberKeyboardDeleteKey@3x.png */,
@@ -118,7 +134,7 @@
 				A3340665209B2907009DB139 /* MEBNumberKeyboardDismissKey@2x.png */,
 				A3340666209B2907009DB139 /* MEBNumberKeyboardDismissKey@3x.png */,
 			);
-			path = NumberMinusKeyBoard;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
