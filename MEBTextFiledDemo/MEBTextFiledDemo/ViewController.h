@@ -21,6 +21,9 @@
 
 @property (weak, nonatomic) IBOutlet MEBTextField *tf5;
 
+@property (weak, nonatomic) IBOutlet MEBTextField *ft6;
+
+@property (weak, nonatomic) IBOutlet MEBTextField *tf7;
 
 @end
 

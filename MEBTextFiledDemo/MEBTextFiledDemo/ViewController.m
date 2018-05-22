@@ -23,6 +23,8 @@
     [self setUpTF3];
     [self setUpTF4];
     [self setUpTF5];
+    [self setUpTF6];
+    [self setUpTF7];
 }
 
 - (void)setUpHideKeyBoard
@@ -74,6 +76,16 @@
     self.tf5.maxPrice = 999999;
     self.tf5.minPrice = - 999;
     self.tf5.mustInputStrAtEnd = @"元";
+}
+
+- (void)setUpTF6
+{
+    self.ft6.isPhoneNumber = YES;
+}
+
+- (void)setUpTF7
+{
+    self.tf7.isSpecialCharacter = NO;
 }
 
 - (void)didReceiveMemoryWarning
