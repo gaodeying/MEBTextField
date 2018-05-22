@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MEBTextField.h"
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet MEBTextField *tf1;
+
+@property (weak, nonatomic) IBOutlet MEBTextField *tf2;
+
+@property (weak, nonatomic) IBOutlet MEBTextField *tf3;
+
+@property (weak, nonatomic) IBOutlet MEBTextField *tf4;
+
+@property (weak, nonatomic) IBOutlet MEBTextField *tf5;
 
 
 @end
